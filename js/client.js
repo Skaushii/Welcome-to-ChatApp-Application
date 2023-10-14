@@ -1,4 +1,5 @@
-const socket = io('https://chat-5oay.onrender.com');
+const port = process.env.PORT || 8000;
+const socket = io(`https://chat-5oay.onrender.com:${port}`);
 
 const form = document.getElementById('send-container');
 const messageInput = document.getElementById('message1');
