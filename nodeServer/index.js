@@ -1,4 +1,5 @@
-const io = require("socket.io")( {
+const port = process.env.PORT || 8000;
+const io = require("socket.io")(port, {
     cors: {
       origin: "https://chatwithcowshik.netlify.app/", // This is the origin of your frontend application
       methods: ["GET", "POST"]
