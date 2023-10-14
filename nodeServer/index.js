@@ -1,6 +1,6 @@
 const io = require("socket.io")(8000, {
     cors: {
-      origin: "http://127.0.0.1:5500", // This is the origin of your frontend application
+      origin: "https://chatwithcowshik.netlify.app/", // This is the origin of your frontend application
       methods: ["GET", "POST"]
     }
   });
