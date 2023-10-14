@@ -1,4 +1,4 @@
-const io = require("socket.io")(8000, {
+const io = require("socket.io")(https://chat-5oay.onrender.com, {
     cors: {
       origin: "https://chatwithcowshik.netlify.app/", // This is the origin of your frontend application
       methods: ["GET", "POST"]
